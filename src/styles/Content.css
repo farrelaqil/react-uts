@@ -1,0 +1,181 @@
+body{
+    background-color: white;
+}
+.gambar img{
+    width: 1518px;
+   margin-top: -7px;
+   cursor: pointer;
+   
+   
+}
+.gambar, .gambar1, .gambar2 {
+    text-align: center; 
+    
+}
+
+.gambar img, .gambar1 img, .gambar2 img {
+    max-width: 100%; 
+    height: auto; 
+  
+}
+.gambar .image-container {
+    position: relative; 
+    text-align: center;
+}
+
+.gambar .image-container img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.gambar h2, h3 {
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gambar h2 {
+    top: 20%;
+    font-size: 24px; 
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+.gambar h3 {
+    top: 25%; 
+    font-size: 18px; 
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+
+/* ______________________________________________________ */
+
+.gambar1 {
+    position: relative; 
+}
+
+.gambar1 img {
+    width: 1518px;
+    cursor: pointer;
+}
+
+.gambar1 h2, .gambar1 h3 {
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    opacity: 0; 
+    transition: opacity 0.5s ease, top 0.5s ease; 
+}
+
+.gambar1 h2 {
+    top: 20%; 
+    font-size: 24px; 
+    margin: 0; 
+    color: rgb(255, 255, 255);
+}
+
+.gambar1 h3 {
+    top: 25%; 
+    font-size: 18px; 
+    margin: 0; 
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+
+.gambar1:hover h2{   opacity: 1; 
+top: 15%;
+}
+.gambar1:hover h3 {
+    opacity: 1;
+    top: 20%; 
+}
+/* ______________________________________________________________ */
+
+.gambar2 {
+    position: relative; 
+}
+
+.gambar2 img {
+    width: 1518px;
+    cursor: pointer;
+}
+
+.gambar2 h2, .gambar2 h3 {
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    opacity: 0; 
+    transition: opacity 0.5s ease, top 0.5s ease; 
+}
+
+.gambar2 h2 {
+    top: 20%; 
+    font-size: 24px; 
+    margin: 0; 
+    color: rgb(255, 255, 255);
+}
+
+.gambar2 h3 {
+    top: 25%; 
+    font-size: 18px; 
+    margin: 0; 
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+
+.gambar2:hover h2{   opacity: 1; 
+top: 15%;
+}
+.gambar2:hover h3 {
+    opacity: 1;
+    top: 20%; 
+}
+/* _____________________________________________________________________ */
+.gambar3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px; 
+}
+
+.small, .small1 {
+    position: relative; 
+    max-width: 720px;
+    flex: 1; 
+    text-align: center; 
+    overflow: hidden; 
+}
+
+.gambar3 img {
+    max-width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease; 
+    cursor: pointer; 
+}
+
+.gambar3 img:hover {
+    transform: scale(1.05); 
+}
+
+.gambar3 h1 {
+    position: absolute; 
+    top: 30px; 
+    left: 50%; 
+    transform: translate(-50%, 0); 
+    font-size: 24px; 
+    color: #ffffff; 
+    margin: 0; 
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+    transform: translate(-50%, -10px); 
+}
+
+.small:hover h1, .small1:hover h1 {
+    opacity: 1; 
+    transform: translate(-50%, 0); 
+}

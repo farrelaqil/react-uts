@@ -1,0 +1,53 @@
+nav {
+    display: flex;
+    justify-content: center; 
+    background-color: #ffffff;
+    margin-bottom: -30px;
+    margin-top: -20px;
+    
+   
+}
+
+ul {
+    display: flex;
+    list-style-type: none; 
+    padding: 0; 
+    align-items: center; }
+
+li {
+    margin: 0 15px;
+    font-size: 5px;
+}
+
+h1 {
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    max-width: 100px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.search, .keranjang {
+    max-width: 30px;
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+a:hover h1 {
+    color: rgb(41, 159, 228); 
+    transform: translateY(-3px);
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+
+.logo:hover, .search:hover, .keranjang:hover {
+    transform: scale(1.3); 
+    opacity: 0.8;
+}
+
+a{transition: color 0.3s ease, transform 0.3s ease;}
